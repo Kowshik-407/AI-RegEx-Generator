@@ -18,6 +18,13 @@ _RegEx Generator - JS + Python Editor Template_
 ![image](https://github.com/Kowshik-407/AI-RegEx-Generator/assets/66817358/04f569f3-845c-4138-aa1e-7d13ebd7becb)
 
 
+## Website Overview
+#### RegEx Generation
+![image](https://github.com/Kowshik-407/AI-RegEx-Generator/assets/66817358/e86d9329-7024-4cc0-bbc2-28376a24b693)
+![regex-gif](https://github.com/Kowshik-407/AI-RegEx-Generator/assets/66817358/e5f6b323-2b24-4a3f-bb58-a41c12ad8c93)
+
+
+
 
 ## Code
 
