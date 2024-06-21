@@ -6,13 +6,13 @@ Tools used:
 - OpenAI : platform.openai.com/playground
 
 ## Projects
-**AI RegEx Generator** : [JS_Editor](js-editor)
+**AI RegEx Generator** : [JS_Editor][js-editor]
 
 _RegEx Generator - JS Editor Template_
 ![image](https://github.com/Kowshik-407/AI-RegEx-Generator/assets/66817358/b18cb50f-30d9-4a32-9484-25c2228f5b57)
 
 
-**AI RegEx Generator With JS & Python Editors** : [JS_Python_Editor](js-python-editors)
+**AI RegEx Generator With JS & Python Editors** : [JS_Python_Editor][js-python-editors]
 
 _RegEx Generator - JS + Python Editor Template_
 ![image](https://github.com/Kowshik-407/AI-RegEx-Generator/assets/66817358/04f569f3-845c-4138-aa1e-7d13ebd7becb)
