@@ -207,4 +207,4 @@ if(
 
 [retool-url]: https://retool.com/
 [js-editor]: https://kowshik407.retool.com/apps/9ea95ec4-23c2-11ee-972d-7b73343848eb/regexgenerator-openai
-[js-python-editors]: https://kowshik407.retool.com/editor/53d26258-2488-11ee-91f2-eff767e0426b/regexgenerator-openai-editors
+[js-python-editors]: https://kowshik407.retool.com/apps/53d26258-2488-11ee-91f2-eff767e0426b/regexgenerator-openai-editors
