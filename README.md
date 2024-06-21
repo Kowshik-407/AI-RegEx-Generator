@@ -5,10 +5,6 @@ Tools used:
 - Retool : retool.com
 - OpenAI : platform.openai.com/playground
 
-Process:
-- Front End Part done using : [Retool][retool-url]
-- For Prompting used ChatGPT : text-davinci-003
-
 ## Projects
 <b><i>AI RegEx Generator</i></b> : [JS_Editor][js-editor]
 
@@ -205,6 +201,5 @@ if(
 }
 ```
 
-[retool-url]: https://retool.com/
 [js-editor]: https://kowshik407.retool.com/apps/9ea95ec4-23c2-11ee-972d-7b73343848eb/regexgenerator-openai
 [js-python-editors]: https://kowshik407.retool.com/apps/53d26258-2488-11ee-91f2-eff767e0426b/regexgenerator-openai-editors
