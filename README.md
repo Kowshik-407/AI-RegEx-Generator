@@ -9,9 +9,15 @@ Process:
 - Front End Part done using : [Retool][retool-url]
 - For Prompting used ChatGPT : text-davinci-003
 
+## Projects
+<b><i>AI RegEx Generator</i></b> : [JS_Editor][js-editor]
+
+<b><i>AI RegEx Generator With JS & Python Editors</i></b> : [JS_Python_Editor][js-python-editors]
+
+
 ## Code
 
-<b><i>iFrame Block: </b></i>
+<b><i>iFrame Block: </i></b>
 ```
 <script 
   src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.11/codemirror.min.js" 
@@ -173,4 +179,32 @@ r_createEditor();
 </script>
 ```
 
+***Run Button Script - Event Handlers Success:***
+```
+const history = promptHistory.value;
+if(!history.includes(regexPrompt.value)){
+  history.unshift(regexPrompt.value);
+  promptHistory.setValue(history);
+}
+
+// Update text fields
+if(
+  generateJSRegex.data && generateJSRegex.data?.choices?.length > 0
+){
+  const choice = generateJSRegex.data.choices[0];
+  generatedJSRegex.setValue(choice.text);
+  
+  // Update UI + state
+  currentJSRegexText.setValue(choice.text);
+  currentTestString.setValue(regexTextString.value);
+  
+  codeGenerator1.updateModel({
+    regex: choice.text,
+    testString: regexTextString.value
+  });
+}
+```
+
 [retool-url]: https://retool.com/
+[js-editor]: https://kowshik407.retool.com/apps/9ea95ec4-23c2-11ee-972d-7b73343848eb/regexgenerator-openai
+[js-python-editors]: https://kowshik407.retool.com/editor/53d26258-2488-11ee-91f2-eff767e0426b/regexgenerator-openai-editors
