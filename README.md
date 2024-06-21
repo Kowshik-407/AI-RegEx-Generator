@@ -1,5 +1,5 @@
 # AI-RegEx-Generator
-Used ChatGPT to Build a RegEx Generator with JS &amp; Python Editors
+Used ChatGPT to Build a RegEx Generator with JS &amp; Python Editors - Open AI API Low Code
 
 Tools used:
 - Retool : retool.com
